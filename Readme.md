@@ -15,6 +15,8 @@ While there will be far fewer plugins using these delegates, it is still source 
 conflicting render plugins could be very difficult. Hopefully, other plugins will use this manager to register their 
 delegates, and save some of the headache further down the road. 
 
+If you don't want to deal with the full project, you can download a Unity package of the plugin from the [releases page][2].
+
 Contributions and feedback are extremely welcome!
 
 Lifecycle
@@ -97,3 +99,6 @@ void _registerPlugin() {
 
 
 [1]: https://developer.apple.com/library/ios/documentation/cocoa/conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html
+[2]: https://github.com/scarlet/RenderPluginManager/releases
+
+
