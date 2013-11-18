@@ -1,9 +1,8 @@
 //
 //  UnityAppController+RPM.m
-//  Unity-iPhone
+//  RenderPluginManager
 //
 //  Created by Christopher Baltzer on 11/18/2013.
-//
 //
 
 #import "UnityAppController+RPM.h"

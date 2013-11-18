@@ -3,7 +3,6 @@
 //  RenderPluginManager
 //
 //  Created by Christopher Baltzer on 11/18/2013.
-//  Copyright (c) 2013 Scarlet. All rights reserved.
 //
 
 #import "RenderPluginManager.h"
@@ -37,6 +36,10 @@
     return self;
 }
 
+
+-(struct UnityRenderingSurface*)getRenderingSurface {
+    return mainDisplaySurface;
+}
 
 
 #pragma mark - Registration
