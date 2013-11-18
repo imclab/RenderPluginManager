@@ -62,6 +62,16 @@ To register or unregister a delegate with the manager, use these methods:
 ```
 > Removes the specified delegate from the array. It will no longer receive events. 
 
+
+
+We've also enabled a define to check if RenderPluginManager is available, just in case. You could use this to check 
+whether you should register your delegate directly with UnityAppController or not:
+
+```objc
+#define __RENDER_PLUGIN_MANAGER__ 
+```
+
+
 ### Example
 
 ```objc
