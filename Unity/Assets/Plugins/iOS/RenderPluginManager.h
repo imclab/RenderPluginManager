@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PluginBase/RenderPluginDelegate.h"
+#import "RenderPluginDelegate.h"
+#import "UnityAppController.h"
 
 // let other plugins know we exist
-#define __RENDER_PLUGIN_MANAGER__ 
+#define __RENDER_PLUGIN_MANAGER__
 
 
 @interface RenderPluginManager : RenderPluginArrayDelegate
@@ -21,6 +22,9 @@
 -(struct UnityRenderingSurface*)registerDelegate:(id<RenderPluginDelegate>)delegate;
 -(void)unregisterDelegate:(id<RenderPluginDelegate>)delegate;
 
+@end
 
+
+@interface UnityAppController (RPM)
 
 @end

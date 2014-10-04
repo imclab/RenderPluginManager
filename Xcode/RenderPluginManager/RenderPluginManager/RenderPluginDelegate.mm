@@ -56,7 +56,6 @@
 
 - (void)onFrameResolved;
 {
-
 	[self callSelectorOnArray:@selector(onFrameResolved)];
 }
 

@@ -15,6 +15,7 @@
 	extern	bool	_ios50orNewer;
 	extern	bool	_ios60orNewer;
 	extern	bool	_ios70orNewer;
+	extern	bool	_ios80orNewer;
 #endif
 
 
@@ -42,6 +43,8 @@ DeviceGeneration
 	deviceiPad4Gen = 16,
 	deviceiPhone5C = 17,
 	deviceiPhone5S = 18,
+	deviceiPad5Gen = 19,
+	deviceiPadMini2Gen = 20,
 	deviceiPhoneUnknown = 10001,
 	deviceiPadUnknown = 10002,
 	deviceiPodTouchUnknown = 10003,

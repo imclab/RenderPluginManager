@@ -29,7 +29,7 @@ void _unregisterPlugin() {
 }
 
 -(void)onFrameResolved {
-    NSLog(@"%@ %s - Target FB: %d", @"SamplePlugin", __PRETTY_FUNCTION__, self.surface->targetFB);
+    NSLog(@"%@ %s - Target FB: %d - System FB: %d", @"SamplePlugin", __PRETTY_FUNCTION__, self.surface->targetFB, self.surface->systemFB);
 }
 
 @end

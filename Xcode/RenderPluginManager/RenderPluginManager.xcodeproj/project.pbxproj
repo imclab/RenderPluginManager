@@ -22,9 +22,8 @@
 		2D0313F6183A5DF900283093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D0313F4183A5DF900283093 /* InfoPlist.strings */; };
 		2D0313F8183A5DF900283093 /* RenderPluginManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0313F7183A5DF900283093 /* RenderPluginManagerTests.m */; };
 		2D031406183A5EC400283093 /* RenderPluginManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D031405183A5EC400283093 /* RenderPluginManager.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2D031408183A607A00283093 /* RenderPluginDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D031407183A607A00283093 /* RenderPluginDelegate.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2D031411183A6DEF00283093 /* UnityAppController+RPM.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D031410183A6DEF00283093 /* UnityAppController+RPM.m */; };
 		2D031416183A70E600283093 /* SamplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D031415183A70E600283093 /* SamplePlugin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2D207A0A19E0483900C5E1D3 /* RenderPluginDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D207A0919E0483900C5E1D3 /* RenderPluginDelegate.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,16 +56,14 @@
 		2D0313F3183A5DF900283093 /* RenderPluginManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RenderPluginManagerTests-Info.plist"; sourceTree = "<group>"; };
 		2D0313F5183A5DF900283093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D0313F7183A5DF900283093 /* RenderPluginManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderPluginManagerTests.m; sourceTree = "<group>"; };
-		2D031401183A5E4500283093 /* RenderPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderPluginDelegate.h; path = PluginBase/RenderPluginDelegate.h; sourceTree = "<group>"; };
-		2D031402183A5E7300283093 /* iPhone_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone_Common.h; sourceTree = "<group>"; };
 		2D031404183A5EC400283093 /* RenderPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderPluginManager.h; path = ../../../Unity/Assets/Plugins/iOS/RenderPluginManager.h; sourceTree = "<group>"; };
 		2D031405183A5EC400283093 /* RenderPluginManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RenderPluginManager.mm; path = ../../../Unity/Assets/Plugins/iOS/RenderPluginManager.mm; sourceTree = "<group>"; };
-		2D031407183A607A00283093 /* RenderPluginDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RenderPluginDelegate.mm; path = PluginBase/RenderPluginDelegate.mm; sourceTree = "<group>"; };
-		2D03140F183A6DEF00283093 /* UnityAppController+RPM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UnityAppController+RPM.h"; path = "../../../Unity/Assets/Plugins/iOS/UnityAppController+RPM.h"; sourceTree = "<group>"; };
-		2D031410183A6DEF00283093 /* UnityAppController+RPM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UnityAppController+RPM.m"; path = "../../../Unity/Assets/Plugins/iOS/UnityAppController+RPM.m"; sourceTree = "<group>"; };
-		2D031412183A6E3700283093 /* UnityAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityAppController.h; sourceTree = "<group>"; };
 		2D031414183A70E600283093 /* SamplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SamplePlugin.h; path = ../../../Unity/Assets/Plugins/iOS/SamplePlugin.h; sourceTree = "<group>"; };
 		2D031415183A70E600283093 /* SamplePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SamplePlugin.m; path = ../../../Unity/Assets/Plugins/iOS/SamplePlugin.m; sourceTree = "<group>"; };
+		2D207A0619E0472F00C5E1D3 /* iPhone_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone_Common.h; sourceTree = "<group>"; };
+		2D207A0719E0474F00C5E1D3 /* UnityAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityAppController.h; sourceTree = "<group>"; };
+		2D207A0819E0483900C5E1D3 /* RenderPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderPluginDelegate.h; sourceTree = "<group>"; };
+		2D207A0919E0483900C5E1D3 /* RenderPluginDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderPluginDelegate.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,8 +163,8 @@
 		2D031403183A5E8000283093 /* PluginBase */ = {
 			isa = PBXGroup;
 			children = (
-				2D031407183A607A00283093 /* RenderPluginDelegate.mm */,
-				2D031401183A5E4500283093 /* RenderPluginDelegate.h */,
+				2D207A0819E0483900C5E1D3 /* RenderPluginDelegate.h */,
+				2D207A0919E0483900C5E1D3 /* RenderPluginDelegate.mm */,
 			);
 			name = PluginBase;
 			sourceTree = "<group>";
@@ -175,8 +172,8 @@
 		2D031409183A657A00283093 /* Unity */ = {
 			isa = PBXGroup;
 			children = (
-				2D031412183A6E3700283093 /* UnityAppController.h */,
-				2D031402183A5E7300283093 /* iPhone_Common.h */,
+				2D207A0719E0474F00C5E1D3 /* UnityAppController.h */,
+				2D207A0619E0472F00C5E1D3 /* iPhone_Common.h */,
 				2D031403183A5E8000283093 /* PluginBase */,
 			);
 			name = Unity;
@@ -201,8 +198,6 @@
 			children = (
 				2D031404183A5EC400283093 /* RenderPluginManager.h */,
 				2D031405183A5EC400283093 /* RenderPluginManager.mm */,
-				2D03140F183A6DEF00283093 /* UnityAppController+RPM.h */,
-				2D031410183A6DEF00283093 /* UnityAppController+RPM.m */,
 			);
 			name = RenderPluginManager;
 			sourceTree = "<group>";
@@ -318,9 +313,8 @@
 				2D0313DD183A5DF900283093 /* SCAppDelegate.m in Sources */,
 				2D0313E3183A5DF900283093 /* SCViewController.m in Sources */,
 				2D031406183A5EC400283093 /* RenderPluginManager.mm in Sources */,
-				2D031411183A6DEF00283093 /* UnityAppController+RPM.m in Sources */,
+				2D207A0A19E0483900C5E1D3 /* RenderPluginDelegate.mm in Sources */,
 				2D0313D9183A5DF900283093 /* main.m in Sources */,
-				2D031408183A607A00283093 /* RenderPluginDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +533,7 @@
 				2D0313FD183A5DF900283093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D0313FE183A5DF900283093 /* Build configuration list for PBXNativeTarget "RenderPluginManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +542,7 @@
 				2D031400183A5DF900283093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
